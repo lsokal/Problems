@@ -4,7 +4,7 @@
 #Find the sum of all the multiples of 3 or 5 below 1000.
 
 i = 3
-multiples=[]
+multiples = []
 while i < 1000:
     if i % 3 == 0 or i % 5 == 0:
         multiples.append(i)
